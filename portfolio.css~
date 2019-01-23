@@ -1,0 +1,50 @@
+html, h1 {
+	font-size: 1.25em;
+}
+
+h2 { 
+	font-size: 2em;
+}
+body {
+	background-color: white;
+	color: #1C3341;
+}
+
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #008773;
+}
+
+#menu li {
+  float: left;
+}
+
+#menu li a {
+  display: block;
+  color: #F2C975;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#menu li a:hover {
+  background-color: #6BB983;
+  color: #008773;
+}
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1
+ 
+ 
+}
+
+article {
+ flex: 4
+}
